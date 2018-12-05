@@ -11,24 +11,24 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="main-nav">
             <h1><a href="/">Restaurant Reviews</a></h1>
         </nav>
     </header>
 
     <main id="maincontent">
         <section id="map-container">
-            <div id="map"></div>
+            <div id="map" role="application" aria-label="Restaurant Map">
         </section>
         <section>
             <div class="filter-options">
                 <h2>Filter Results</h2>
-                <label for="neighborhoods">
+                <label>
                     <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
                         <option value="all">All Neighborhoods</option>
                     </select>
                 </label>
-                <label for="cuisines">
+                <label>
                     <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
                         <option value="all">All Cuisines</option>
                     </select>
