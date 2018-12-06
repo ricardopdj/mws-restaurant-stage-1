@@ -203,7 +203,7 @@ section {
   height: auto;
 }
 
-#restaurants-list li h2 {
+#restaurants-list li .restaurant-name {
   color: #f18200;
   font-family: Arial, sans-serif;
   font-size: 14pt;

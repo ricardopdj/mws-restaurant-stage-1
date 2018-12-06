@@ -183,8 +183,9 @@ createRestaurantHTML = (restaurant) => {
     image.alt = restaurant.name
     li.append(image);
 
-    const name = document.createElement('h2');
+    const name = document.createElement('h3');
     name.innerHTML = restaurant.name;
+    name.className = 'restaurant-name';
     li.append(name);
 
     const neighborhood = document.createElement('p');
